@@ -33,16 +33,26 @@ Diode,                      "SS34 (Schottky, 40V, 3A)"
 
 
 
-SchematicThe complete schematic designed in EasyEDA.
+Schematic The complete schematic designed in EasyEDA.
+
 PCB Layout (2D)Optimized trace routing: Thick traces (25 mil) for high-current paths and a solid GND copper pour for thermal dissipation.
+
 3D Render Final 3D visualization of the assembled board.
+
 🛠️ Bill of Materials (BOM)
+
 1x MT3608 Boost Converter IC (SOT23-6)
+
 1x 22µH SMD Power Inductor
+
 1x SS34 Schottky Diode
+
 2x 22µF Ceramic Capacitors (Input & Output Filters)
+
 1x 190k SMD Resistor (1% Tolerance)
+
 1x 10k SMD Resistor (1% Tolerance)
+
 2x 2-Pin Screw Terminal Blocks (5.08mm pitch)
 
 👨‍💻 About the Author
