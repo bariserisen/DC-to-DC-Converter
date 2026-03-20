@@ -29,14 +29,6 @@ Optimized PCB Layout: Designed with strict adherence to power electronics layout
 * **Inductor:** 22µH (SMD Power Inductor)
 * **Rectifier Diode:** SS34 (Schottky, 40V, 3A)
 
-📐 The Math: Feedback Network Calculation
-The MT3608 regulates the output voltage by comparing the feedback pin (FB) to an internal 0.6V reference.
-The output voltage is divided by a resistor divider, R1 and R2 to the FB pin.
-The governing equation is:$$V_{out} = 0.6V \times \left(1 + \frac{R1}{R2}\right)$$To achieve a precise 12V output, the resistor values were calculated as follows:
-R1 (Top Resistor): $190k\Omega$R2 (Bottom Resistor): $10k\Omega$Calculation:$$12V = 0.6V \times \left(1 + \frac{190k\Omega}{10k\Omega}\right) = 0.6V \times 20$$
-
-
-
 Schematic The complete schematic designed in EasyEDA.
 
 PCB Layout (2D)Optimized trace routing: Thick traces (25 mil) for high-current paths and a solid GND copper pour for thermal dissipation.
