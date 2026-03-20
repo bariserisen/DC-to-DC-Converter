@@ -6,6 +6,7 @@ A compact, highly efficient, and industrial-grade DC-DC Step-Up (Boost) Converte
 
 📖 Project Overview
 This project was born out of the need to bridge the gap between theoretical circuit analysis and practical, commercial-grade hardware design.
+From Theory to Practice: While I first built an open-loop simulation in Proteus to grasp the basic physics, this repository contains the final hardware implementation. It replaces the discrete simulation with a closed-loop, high-frequency design optimized with SMD components for real-world application.
 
 While fundamental boost converters can be simulated using discrete components (like external MOSFETs and signal generators in open-loop configurations), this board utilizes a highly integrated, closed-loop architecture. By utilizing the MT3608 IC, the design achieves high-frequency switching (1.2MHz), extreme compactness, and reliable voltage regulation regardless of load fluctuations.
 
