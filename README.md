@@ -20,16 +20,14 @@ Industrial Grade Components: Uses an SS34 Schottky diode for fast recovery and m
 
 Optimized PCB Layout: Designed with strict adherence to power electronics layout guidelines (minimized SW node area, thick power traces, and massive GND copper pours for thermal and EMI management).
 
-⚙️ Hardware Specifications
+## ⚙️ Hardware Specifications
 
-Parameter                   Value
-Input Voltage (Vin​),        5V DC
-Output Voltage (Vout​),      12V DC
-Controller IC,              MT3608 (SOT23-6)
-Switching Frequency,        1.2 MHz
-Inductor,                   22µH (SMD Power Inductor)
-Diode,                      "SS34 (Schottky, 40V, 3A)"
-
+* **Controller IC:** MT3608 (SOT23-6 package)
+* **Input Voltage:** `5V DC`
+* **Output Voltage:** `12V DC`
+* **Switching Frequency:** 1.2 MHz
+* **Inductor:** 22µH (SMD Power Inductor)
+* **Rectifier Diode:** SS34 (Schottky, 40V, 3A)
 
 
 
