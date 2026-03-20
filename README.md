@@ -5,6 +5,7 @@ I designed an electronic circuit board with a 5V input that can provide a 12V ou
 A compact, highly efficient, and industrial-grade DC-DC Step-Up (Boost) Converter PCB designed to step up a standard 5V input to a stable 12V output. This project demonstrates the practical implementation of high-frequency closed-loop power electronics using the MT3608 IC.
 
 📖 Project Overview
+
 This project was born out of the need to bridge the gap between theoretical circuit analysis and practical, commercial-grade hardware design.
 From Theory to Practice: While I first built an open-loop simulation in Proteus to grasp the basic physics, this repository contains the final hardware implementation. It replaces the discrete simulation with a closed-loop, high-frequency design optimized with SMD components for real-world application.
 
